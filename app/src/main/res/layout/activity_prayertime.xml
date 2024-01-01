@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ssubmitBtn"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="#EFEFEF"
+        android:textColor="#F60802"
+        android:text="Prayer times by city and country"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        app:srcCompat="@drawable/z" />
+
+
+    <EditText
+        android:id="@+id/scityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"/>
+
+    <EditText
+        android:id="@+id/scountryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Country"
+        android:layout_below="@id/scityText"/>
+
+    <Button
+        android:id="@+id/ssubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Prayer Times"
+        android:layout_below="@id/scountryText"/>
+
+    <TextView
+        android:id="@+id/sresultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ssubmitBtn"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="#EFEFEF"
+        android:textColor="#000000"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

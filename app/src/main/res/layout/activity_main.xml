@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    android:padding="40dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:text="WELCOME "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prayer times Application"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="\nAn application that gives\n prayer times according to \nthe city and country"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/z" />
+
+
+    <Button
+        android:id="@+id/butRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Register"
+        android:background="@drawable/round_btn"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:id="@+id/butLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Login"
+        android:background="@drawable/round_btn"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
