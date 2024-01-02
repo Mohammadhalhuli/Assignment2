@@ -10,18 +10,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:textColor="@color/white"
+        style="@style/BoldTextStyle"
         android:text="Welcome Back"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:textColor="@color/white"
+        style="@style/BoldTextStyle"
         />
     <EditText
         android:id="@+id/stsLoginUsername"

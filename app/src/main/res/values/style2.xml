@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="CustomTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">#EFEFEF</item>
+        <item name="android:textColor">#F60802</item>
+    </style>
+
+</resources>

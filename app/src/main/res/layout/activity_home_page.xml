@@ -11,9 +11,7 @@
         android:id="@+id/stsViewWelcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:textColor="@color/white"
+        style="@style/BoldTextStyle"
         android:text="Welcome "
         android:layout_centerInParent="true"
         />
@@ -21,9 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Prayer times program"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:textColor="@color/white"
+        style="@style/BoldTextStyle"
         />
 
     <Button

@@ -10,10 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ssubmitBtn"
-        android:textSize="18sp"
-        android:padding="5dp"
-        android:background="#EFEFEF"
-        android:textColor="#F60802"
+        style="@style/CustomTextStyle"
         android:text="Prayer times by city and country"/>
 
 
@@ -52,9 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ssubmitBtn"
-        android:textSize="18sp"
-        android:padding="16dp"
-        android:background="#EFEFEF"
-        android:textColor="#000000"/>
+        style="@style/CustomTextStyle"></TextView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
